@@ -17,7 +17,7 @@ To deal with the above problems, we build Simois, a {S}calable d{I}stribute stre
 
 ## Structure of Simois
 
-![image](https://github.com/DStream-Storm/DStream/raw/master/src/SimoisStructure.png)
+![image](https://github.com/DStream-Storm/DStream/raw/master/src/main/SimoisStructure.png)
 
 Simois follows the join-biclique stream joining framework in BiStream. To implement the join-biclique model, we divide all the processing units into two sets: $R$-joining instances and $S$-joining instances. A $S$-joining instance stores the incoming tuples of stream $S$ based on the hash partitioning. The instance performs join operation whenever it receives a tuple of stream $R$, which has the associated key. Specifically, it matches the received $R$ tuple with all the $S$ tuples stored in this instance. $R$-joining instances are on the opposite. For simplicity, in the following, we only discuss about the $S$-joining instances and the symmetric $R$-instances work in the same way.
 
