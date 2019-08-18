@@ -100,7 +100,7 @@ builder.setBolt(JOINER_S_BOLT_ID, joinerS, _args.numPartitionsS)
 
 If you want to know more detailed information, please refer to this paper:
 
-Fan Zhang, Hanhua Chen, Hai Jin. "Simois: A Scalable Distributed Stream Join System with Skewed Workloads." in Proceedings of IPDPS, 2019.
+Fan Zhang, Hanhua Chen, Hai Jin. "Simois: A Scalable Distributed Stream Join System with Skewed Workloads." in Proceedings of IEEE 39th International Conference on Distributed Computing Systems (ICDCS), 2019.
 
 
 ## Authors and Copyright
