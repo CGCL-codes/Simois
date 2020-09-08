@@ -1,6 +1,6 @@
 # Simois
 
-Simois is a scalable distributed stream join system, which supports efficient join operations in two streams with highly skewed data distribution. Simois can support the completeness of the join results, and greatly outperforms the existing stream join systems in terms of system throughput and the average processing latency.
+Simois is a scalable distributed stream join system, which supports efficient join operations in two streams with highly skewed data distribution. Simois can support the completeness of the join results, and greatly outperforms the existing stream join systems in terms of system throughput and the average processing latency. Experiment results show that Simois improves the system throughput significantly by 52% and reduces the average latency by 37%, compared to existing stream join systems.
 
 
 ## Introduction
